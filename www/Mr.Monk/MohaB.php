@@ -1,0 +1,74 @@
+<?php
+//Coniction by Mr.Monk
+
+$mrmonkIP='127.0.0.1';// áæ Úáí ÅÓÊÖÇÝÉ åÊÛíÑåÇ áÃí Èí ÇáÃÓÊÖÇÝÉ áæ Ýí Èí ÃÓ ÃßÊÈ Ãí Èí ÇáÝí Èí ÃÓ
+
+$mrmonkHost='localhost';// áæ Úáí ÅÓÊÖÇÝÉ åÊÛíÑåÇ áÃí Èí ÇáÃÓÊÖÇÝÉ áæ Ýí Èí ÃÓ ÓíÈåÇ Òí ãåíÇ
+
+$mrmonkUser='root';// áæ Úáí ÅÓÊÖÇÝÉ åÊÛíÑ ááíæÒÑ ÈÊÇÚ ÇáÏÇÊÇ ÈíÒ áæ Ýí Èí ÃÓ ÓíÈåÇ Òí ãåíÇ
+
+$mrmonkDB='hamoo';// ÅÓã ÞÇÚÏÉ ÇáÈíÇäÇÊ
+
+$mrmonkPass='123456789';// ÈÇÓæÑÏ ÇáÃÈÇÊÔí
+
+$mrmonkPort='5829';// ÈæÑÊ ÇáÓíÑÝÑ Åáí åæÇ Ìíã ÈæÑÊ
+
+$rs = mysql_connect($mrmonkIP, $mrmonkUser, $mrmonkPass) or die(mysql_error());
+mysql_select_db($mrmonkDB,$rs) or die(mysql_error());//Connection
+
+//Change some rights by Mr.Monk
+
+$mrmonkServer='daany';// ÅÓã ÓíÑÝÑß
+
+$mrmonkFace='https://www.facebook.com/BedoAmr01096';// ÝíÓ Èæß ÇááÚÈÉ
+
+$mrmonkFroum='https://www.youtube.com/channel/UCjnUD2TjOsLcJsemVOK-fMA';// ÇáãäÊÏí ÈÊÇÚ ÇááÚÈÉ áæ ãÚäÏßÔ ÍØ ÑÇÈØ ÇáÝíÓ
+
+//Shipping Rates by Mr.Monk
+
+$mrmonkNam='VIP6';// ÅÓã Ãæá ÎÇäÉ ááÈíÚ
+
+$mrmonkName='VIP';// ÊÚÑíÝ ÇáÎÇäÉ ÇáÃæá
+
+$mrmonkNames='Level 6';// ÊÚÑíÝ ÇáÎÇäÉ ÇáËÇäí
+
+$mrmonkPrice='25';// ÓÚÑ ÇáÎÇäÉ
+
+$mrmonkNam2='GoldCup';// ÅÓã ÊÇäí ÎÇäÉ ááÈíÚ
+
+$mrmonkName2='Gold Cup';// ÊÚÑíÝ ÇáÎÇäÉ ÇáÃæá
+
+$mrmonkNames2='3,000 HP , Attack , MP';// ÊÚÑíÝ ÇáÎÇäÉ ÇáËÇäí
+
+$mrmonkPrice2='50';// ÓÚÑ ÇáÎÇäÉ
+
+$mrmonkNam3='Cps Purchase[1]';// ÅÓã ÊÇáÊ ÎÇäÉ ááÈíÚ
+
+$mrmonkName3='1,000,000';// ÊÚÑíÝ ÇáÎÇäÉ ÇáÃæá
+
+$mrmonkNames3='ConquerPoints';// ÊÚÑíÝ ÇáÎÇäÉ ÇáËÇäí
+
+$mrmonkPrice3='10';// ÓÚÑ ÇáÎÇäÉ
+
+$mrmonkNam4='Cps Purchase[2]';// ÅÓã ÎÇäÉ ÇáÑÇÈÚÉ
+
+$mrmonkName4='10,000,000';// ÊÚÑíÝ ÇáÎÇäÉ ÇáÃæá
+
+$mrmonkNames4='ConquerPoints';// ÊÚÑíÝ ÇáÎÇäÉ ÇáËÇäí
+
+$mrmonkPrice4='85';// ÓÚÑ ÇáÎÇäÉ
+
+//Download Links by Mr.Monk
+
+$mrmonkClient='https://www.youtube.com/channel/UCjnUD2TjOsLcJsemVOK-fMA';// ÑÇÈØ ÊÍãíá ßáíäÊ ÇááÚÈÉ
+
+$mrmonkPatch='';// ÑÇÈØ ÊÍãíá ÈÇÊÔ ÇáßÇãá ááÚÈÉ
+
+$mrmonkPatch2='';// ÑÇÈØ ÊÍãíá ÈÇÊÔ ÕÛíÑ ááÚÈÉ
+
+$mrmonkAutoPatch='';// ÑÇÈØ ÊÍãíá ÃãæÊæ ÈÇÊÔ ÇááÚÈÉ
+
+// ãáÍæÙÉ : íãßäß ÊÚÏíá Úáí ÇáßáÇã ãä ãáÝ ÏæäáæÏ ÈãäÊåí ÇáÈÓÇØÉ
+
+// End Config
+?>
